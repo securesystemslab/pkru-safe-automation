@@ -125,7 +125,7 @@ RUN update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 WORKDIR /root
 
 ## Install Rust
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --default-toolchain none -y
+RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --default-toolchain none -y
 
 ## Grab compatible LLVM version for building Rust
 WORKDIR /root
