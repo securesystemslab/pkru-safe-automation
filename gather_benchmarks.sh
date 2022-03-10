@@ -11,9 +11,9 @@ NO_MPK_BR="$BASE_PATH/no-mpk-bench-results"
 
 FolderList=($VANILLA_BR $NO_MPK_BR $MPK_BR)
 
-D_VANILLA_BR="$BASE_PATH/vanilla-dromaeo-bench-results/bench-results/dromaeo-results"
-D_MPK_BR="$BASE_PATH/mpk-dromaeo-bench-results/bench-results/dromaeo-results"
-D_NO_MPK_BR="$BASE_PATH/no-mpk-dromaeo-bench-results/bench-results/dromaeo-results"
+D_VANILLA_BR="$BASE_PATH/vanilla-dromaeo-bench-results/dromaeo-results"
+D_MPK_BR="$BASE_PATH/mpk-dromaeo-bench-results/dromaeo-results"
+D_NO_MPK_BR="$BASE_PATH/no-mpk-dromaeo-bench-results/dromaeo-results"
 
 DFolderList=($D_VANILLA_BR $D_NO_MPK_BR $D_MPK_BR)
 
